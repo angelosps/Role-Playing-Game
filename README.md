@@ -5,7 +5,7 @@
 
 ## Makefile
 
-Makefile it is provided. Open a terminal in the current directory and do the following for compile, run and clean respectively.
+Makefile it is provided. Open a terminal in the current directory and do the following for _compile_, _run_ and _clean_ respectively.
 
 ```bash
 $ make
