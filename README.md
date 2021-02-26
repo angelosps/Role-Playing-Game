@@ -3,7 +3,7 @@
 
 
 
-# Makefile
+## Makefile
 
 Makefile it is provided. Open a terminal in the current directory and do the following for compile, run and clean respectively.
 
@@ -13,6 +13,6 @@ $ make run
 $ make clean
 ```
 
-# Authors
+## Authors
 * [Angelos Poulis](https://github.com/angelosps)
 * [Dimitrios Rontogiannis](https://github.com/rondojim)
