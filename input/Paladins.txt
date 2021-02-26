@@ -1,0 +1,4 @@
+Raghnall    1     100     3     5     4    0.1    900       3
+Alexander   1     100     4     5     4    0.2    1000      3
+Dawnguard   1     100     2     5     4    0.2    1000      3
+Gordagyal   1     100     4     5     4    0.1    745       3

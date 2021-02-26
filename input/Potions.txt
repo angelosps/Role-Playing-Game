@@ -1,0 +1,4 @@
+HealthPotion    250     1       10
+StrengthPotion  300     1       15
+MagicPotion     450     2       20
+Ambrosia        1500    15      90

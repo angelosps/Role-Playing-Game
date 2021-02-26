@@ -1,0 +1,11 @@
+Tyson       1       100       5     1      0.1
+Egan        1       100       5     2      0.1
+Draco	    1       100       5     2      0.1
+Hydra 	    1       100       5     1      0.1
+Aidan	    1       100       5     2      0.1
+Maleficent  1       100       5     1      0.1
+Shenron	    1       100       5     5      0.1
+Smaug	    1       100       5     1      0.2
+Errol	    1       100       5     5      0.2
+Dragonite 	1       100       5     4      0.1
+

@@ -1,0 +1,4 @@
+Breastplate     300     1     10
+LightArmor      450     2     25
+HeavyArmor      600     5     35
+FullBody        950     10    50   
