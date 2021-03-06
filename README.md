@@ -1,7 +1,10 @@
 # :crossed_swords: Role Playing Game
 
+**A simple Role Playing Game written in C++11.**  
 
-
+* You select up to three Heroes which they move together in the grid
+* There are some Markets in the world where you can buy Items and Spells for your adventure
+* According to a probability, the Heroes come across with Monsters which they have to fight! 
 
 ## Usage
 
