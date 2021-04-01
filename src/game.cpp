@@ -522,14 +522,22 @@ void Market::displayMenu(){
 bool Market::buy(Hero *hero, std::string name){
     for(int i=0; i<weapons.size(); ++i){
         if(weapons[i]->getName() == name){
+            if (hero->getLvl() < weapons[i]->getMinLvlRequired()) {
+                std::cout<< RED << "\n\t\tWARNING!: " << RESET << "You are still a rookie! You have to level up!\n\n";
+                return false;
+            }
             hero->buyItem(weapons[i]);
             std::cout<< RED << "\t\tMessage from Market: " << RESET << "Weapon bought successfully!\n\n";
-            //weapons.erase(weapons.begin() + i); // 
+            //weapons.erase(weapons.begin() + i); 
             return true;
         }
     }
     for(int i=0; i<armors.size(); ++i){
         if(armors[i]->getName() == name){
+            if (hero->getLvl() < armors[i]->getMinLvlRequired()) {
+                std::cout<< RED << "\n\t\tWARNING!: " << RESET << "You are still a rookie! You have to level up!\n\n";
+                return false;
+            }
             hero->buyItem(armors[i]);
             std::cout<< RED << "\t\tMessage from Market: " << RESET << "Armor bought successfully!\n\n";
             //armors.erase(armors.begin() + i);
@@ -538,6 +546,10 @@ bool Market::buy(Hero *hero, std::string name){
     }
     for(int i=0; i<potions.size(); ++i){
         if(potions[i]->getName() == name){
+            if (hero->getLvl() < potions[i]->getMinLvlRequired()) {
+                std::cout<< RED << "\n\t\tWARNING!: " << RESET << "You are still a rookie! You have to level up!\n\n";
+                return false;
+            }
             hero->buyItem(potions[i]);
             std::cout<< RED << "\t\tMessage from Market: " << RESET << "Potion bought successfully!\n\n";
             //potions.erase(potions.begin() + i);
@@ -546,6 +558,10 @@ bool Market::buy(Hero *hero, std::string name){
     }
     for(int i=0; i<iceSpells.size(); ++i){
         if(iceSpells[i]->getName() == name){
+            if (hero->getLvl() < iceSpells[i]->getMinLvlRequired()) {
+                std::cout<< RED << "\n\t\tWARNING!: " << RESET << "You are still a rookie! You have to level up!\n\n";
+                return false;
+            }
             hero->buySpell(iceSpells[i]);
             std::cout<< RED << "\t\tMessage from Market: " << RESET << "IceSpell bought successfully!\n\n";
             //iceSpells.erase(iceSpells.begin() + i);
@@ -554,6 +570,10 @@ bool Market::buy(Hero *hero, std::string name){
     }
     for(int i=0; i<fireSpells.size(); ++i){
         if(fireSpells[i]->getName() == name){
+            if (hero->getLvl() < fireSpells[i]->getMinLvlRequired()) {
+                std::cout<< RED << "\n\t\tWARNING!: " << RESET << "You are still a rookie! You have to level up!\n\n";
+                return false;
+            }
             hero->buySpell(fireSpells[i]);
             std::cout<< RED << "\t\tMessage from Market: " << RESET << "FireSpell bought successfully!\n\n";
             //fireSpells.erase(fireSpells.begin() + i);
@@ -562,6 +582,10 @@ bool Market::buy(Hero *hero, std::string name){
     }
     for(int i=0; i<lightningSpells.size(); ++i){
         if(lightningSpells[i]->getName() == name){
+            if (hero->getLvl() < lightningSpells[i]->getMinLvlRequired()) {
+                std::cout<< RED << "\n\t\tWARNING!: " << RESET << "You are still a rookie! You have to level up!\n\n";
+                return false;
+            }
             hero->buySpell(lightningSpells[i]);
             std::cout<< RED << "\t\tMessage from Market: " << RESET << "LightningSpell bought successfully!\n\n";
             //lightningSpells.erase(lightningSpells.begin() + i);
