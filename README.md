@@ -17,5 +17,7 @@ $ make clean
 ```
 
 ## Authors
-* [Angelos Poulis](https://github.com/angelosps)
-* [Dimitrios Rontogiannis](https://github.com/rondojim)
+* [Angelos Poulis](https://github.com/angelosps)<sup>*</sup>
+* [Dimitrios Rontogiannis](https://github.com/rondojim)<sup>*</sup>
+
+<sup>*</sup>_Equal contribution._
